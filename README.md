@@ -2,7 +2,9 @@
 
 TallyGo tracks group trips, shared expenses, and suggested settlements.
 
-The npm dependency manifests are not included. Restore `package.json` and `package-lock.json`, or provide another dependency setup, before installing or running the app.
+1. Run `npm ci` to install the locked dependencies.
+2. Run `npm run dev`.
+3. Open http://localhost:3000
 
 Trip and expense data is saved in this browser's local storage; it is not shared across browsers or devices. Shared UI state is managed with React Context API.
 
